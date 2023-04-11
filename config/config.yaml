@@ -1,0 +1,21 @@
+training_pipeline_config:
+  pipeline: income
+  artifact_dir: artifact
+
+
+data_ingestion_config:
+
+  dataset_download_url: "url"
+  raw_data_dir : "raw_data"
+  ingested_dir : "ingested"
+  ingested_train_dir : "train"
+  ingested_test_dir : "test"
+
+
+
+data_validation_config:
+
+
+data_transformation_config:
+
+
